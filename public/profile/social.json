@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/harishgadiya/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/harishgadiya"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:harishgadiya92@gmail.com"
+        }
+    ]
+}

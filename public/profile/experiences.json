@@ -1,0 +1,71 @@
+{
+    "experiences": [
+        {
+            "title": "Senior Systems Engineer",
+            "subtitle": "Arctic Wolf (Previously Blackberry Cylance) ",
+            "workType": "Full-time",
+            "workDescription": [
+                "Fixed 30+ issues/bugs in Cylance which are critical to end users",
+                "Rebranding the UI from Cylance to Aurora",
+                "Worked closely with Product Managers to plan and implement new features and updates.",
+                "Championed high-quality, fully tested, and performant code using Jest and RTL.",
+                "Contributed to engineering best practices, including design, documentation, monitoring, and alerting."
+            ],
+            "dateText": "08/2024 - Present"
+        },
+        {
+            "title": "Frontend Tech Lead",
+            "subtitle": "Capgemini",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed UI library called Alloy based of MD-Bootstrap for React and Angular projects",
+                "Fixed 20+ issues/bugs and other applications in Bandwidth",
+                "Added validation rules to validate international numbers as per requirements",
+                "Led code reviews for 25+ projects, improving code quality and consistency throughout the team",
+                "Participated in the design phase with UX/UI teams, facilitating a 30% improvement in design feasibility",
+                "Learned and implemented number formatting based on E164 international rule"
+            ],
+            "dateText": "04/2022 - 08/2024"
+        },
+        {
+            "title": "Senior Associate Eng. L1 ",
+            "subtitle": "Publicis Sapient",
+            "workType": "Full Time",
+            "workDescription": [
+                "Started working on the very last phase of release, fixed 100+ issues/bugs and worked on CR’s",
+                "Worked on performance improvement stories including lighthouse and Google page speed",
+                "Improved initial loading time of homepage by 20% using Chrome developer tool",
+                "Handled builds deployment for frontend using Jenkins",
+                "Added unit test cases and improved coverage to 90% (Jest)",
+                "Made app more accessible by improving score from Level AA to Level AAA"
+            ],
+            "dateText": "09/2019 - 03/2022"
+        },
+        {
+            "title": "Senior Software Engineer",
+            "subtitle": "Evalueserve",
+            "workType": "Full Time",
+            "workDescription": [
+                "Upgraded the tech stack of the application (BackboneJs to ReactJs) improving architecture",
+                "Converted monolith code to reusable React components to enhance readability and maintainability",
+                "Worked within an agile team and prioritised scope of feature requests",
+                "Implemented new responsive, mobile-first approach which increased mobile traffic by 20%",
+                "Enhanced the UI by implementing drag and drop functionality"
+            ],
+            "dateText": "12/2017 - 08/2019"
+        },
+        {
+            "title": "Software Consultant",
+            "subtitle": "Knoldus Inc",
+            "workType": "Full Time",
+            "workDescription": [
+                "Build a stable and maintainable codebase using React",
+                "Use skills in debugging to check code, improve code and enhanced the functionality and user experience of the application",
+                "Implemented a mobile-first approach to existing website",
+                "Ensured scalability of frontend elements by optimising them for loading speed and performance",
+                "Assisted in the training of new developers"
+            ],
+            "dateText": "05/2015 - 11/2017"
+        }
+    ]
+}
