@@ -2,6 +2,9 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -9,6 +12,7 @@
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "bootstrap": "^5.1.1",
+    "framer-motion": "^12.9.2",
     "gh-pages": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
     "prop-types": "^15.7.2",
@@ -18,7 +22,6 @@
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^18.1.0",
     "react-markdown": "^7.0.1",
-    "react-reveal": "^1.2.2",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^5.0.1",
@@ -49,8 +52,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
   "devDependencies": {
     "react-error-overlay": "6.0.9"

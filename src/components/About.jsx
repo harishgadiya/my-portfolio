@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import { motion } from 'framer-motion';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -54,7 +54,11 @@ function About(props) {
         <Container>
           {data
             ? (
-              <Fade bottom>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 1 }}
+              >
                 <Row style={styles.introTextContainer}>
                   <Col style={styles.introImageContainer}>
                     <img style={styles.profileImage} src={data?.imageSource} alt="profile" />
@@ -63,7 +67,7 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                 </Row>
-              </Fade>
+              </motion.div>
             )
             : <FallbackSpinner />}
         </Container>

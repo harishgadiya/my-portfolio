@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import { motion } from 'framer-motion';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';
@@ -43,7 +43,11 @@ function Education(props) {
     <>
       <Header title={header} />
       {data ? (
-        <Fade>
+        <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 1 }}
+                      >
           <div style={{ width }} className="section-content-container">
             <Container>
               <Chrono
@@ -73,7 +77,7 @@ function Education(props) {
               </Chrono>
             </Container>
           </div>
-        </Fade>
+        </motion.div>
       ) : <FallbackSpinner /> }
     </>
   );
