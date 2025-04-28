@@ -51,7 +51,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build"
+    "vercel-build": "npm install --legacy-peer-deps && npm run build",
+    "postinstall": "npm install --legacy-peer-deps"
   },
   "devDependencies": {
     "react-error-overlay": "6.0.9"
