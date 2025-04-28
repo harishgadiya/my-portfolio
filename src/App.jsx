@@ -13,7 +13,7 @@ function App() {
   // const darkMode = useDarkMode(true);
 
   return (
-    <AppContext.Provider value={{ darkMode }}>
+    <AppContext.Provider value={{ darkMode: true }}>
       <ThemeProvider theme={darkTheme}>
         <GlobalStyles />
         <div className="App">
